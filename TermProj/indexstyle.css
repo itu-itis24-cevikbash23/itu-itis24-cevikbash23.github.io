@@ -1,0 +1,28 @@
+#centertext {
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: lightcyan
+}
+h1{
+    color: orangered;
+}
+i {
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    border-style: groove;
+    border-width: 5px;
+}
+p {
+    border: 3px dashed yellow;
+    color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    border:6px double yellow;
+}
