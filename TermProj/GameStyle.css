@@ -19,4 +19,40 @@ h1{
     position: fixed;
     bottom: 10px;
     left: 10px;
+    font-size: 2em;
+}
+#userInput {
+    width: 300px;          
+    height: 40px;        
+    font-size: 16px;                
+    border: 2px solid blue; 
+    border-radius: 10px;    
+    box-shadow: 2px 2px 5px black
+}
+#enterBtn {
+    width: 100px;
+    height: 40px;
+    background-color: blue; 
+    color: white;             
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;          
+}
+#enterBtn:hover {
+    background-color: darkblue;
+    color: gray;
+}
+.hidden {
+    display: none;
+}    
+#score{
+    position: fixed;
+    bottom: 60px;
+    left: 10px;
+    font-size: 2em;
+    background-color: rgb(255, 249, 136);
+    border: outset thick gold;
+    border-radius: 5px;
+    padding: 5px;
 }

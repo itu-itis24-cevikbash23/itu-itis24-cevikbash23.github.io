@@ -11,18 +11,39 @@ body{
 }
 h1{
     color: orangered;
+    background-color: cadetblue;
 }
 i {
-    color: whitesmoke;
-    text-shadow: 1px 1px black;
+    color: lavender;
+    text-shadow: 1px 1px darkgray;
     border-style: groove;
     border-width: 5px;
+    background-color: lightcyan;
 }
 p {
-    border: 3px dashed yellow;
+    border: 3px dashed rgb(255, 246, 113);
     color: coral;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 0px darkgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
 img {
-    border:6px double yellow;
+    border:6px double burlywood;
+    border-radius: 5px;
+}
+div{
+    background-color: cadetblue;
+}
+a{
+    cursor: pointer;
+    color: rgb(255, 122, 149);
+    border: thin solid cornflowerblue;
+    border-radius: 5px;
+}
+a:hover{
+    color: crimson;
+    text-decoration: none;
+    background-color: cadetblue;
+    text-shadow: 1px 1px white;
 }

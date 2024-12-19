@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Prediction Game</title>
-        <script src="PredictionGame.js"></script>
-        <link rel="stylesheet" href="GameStyle.css">
+        <link rel="stylesheet" href="GameStyle.css"> 
     </head>
     <body>
         <h1>Prediction Game</h1>
@@ -18,9 +18,11 @@
             <img class="health"  src="Health.svg" alt="Health" width="100px" height="200px">
             <img class="health"  src="Health.svg" alt="Health" width="100px" height="200px">
         </p>
+        <div id="score">Score:00</div>
         <div class="inputBar">
-            Enter a letter or a word: <input type="text">
-            <button id="enter">Enter</button>
-        </div>          
-    </body>
+            Enter a letter or a word: <input type="text" id="userInput" >
+            <button id="enterBtn">Enter</button>
+            <script src="PredictionGame.js"></script>
+        </div>    
+    </body>     
 </html>
