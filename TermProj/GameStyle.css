@@ -3,20 +3,31 @@ body{
 }
 h1{
     text-align: center;
+    background-color: aqua;
+    color: gold;
+    text-shadow:0px 1px goldenrod;
+    box-shadow: 2px 0px 5px black; 
 }
 .card{
     float:left;
     background-color: beige;
     border: thick solid darkblue;
     margin: 2px;
+    box-shadow: 2px 0px 5px black; 
 }
 .health{
     float:right;
     background-color: white;
     border-bottom: dashed;
+    box-shadow: 2px 2px 5px black;
 }
 .inputBar{
     position: fixed;
+    background-color: aqua;
+    color: gold;
+    text-shadow:0px 1px goldenrod;
+    border: none;
+    border-radius: 5px;
     bottom: 10px;
     left: 10px;
     font-size: 2em;
@@ -27,7 +38,7 @@ h1{
     font-size: 16px;                
     border: 2px solid blue; 
     border-radius: 10px;    
-    box-shadow: 2px 2px 5px black
+    box-shadow: 2px 2px 5px black;
 }
 .button {
     width: 100px;
@@ -37,11 +48,15 @@ h1{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;          
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;          
 }
 .button:hover {
     background-color: darkblue;
     color: gray;
+}
+.button:active{
+    box-shadow: 1px 1px 2px black;  
 }
 .hidden {
     display: none;
@@ -55,4 +70,5 @@ h1{
     border: outset thick gold;
     border-radius: 5px;
     padding: 5px;
+    text-shadow:0px 1px goldenrod;
 }
