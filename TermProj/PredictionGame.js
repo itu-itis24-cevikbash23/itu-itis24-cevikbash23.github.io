@@ -39,11 +39,8 @@ function gameEnd(){
     } else{
         window.alert("You lose!");
     }
-    enterBtn.classList.remove("button");
-    enterBtn.classList.add("hidden");
-    health=3;
-    repeatChecker=[];
-    scorePoint=0;
+    enterBtn.classList.remove("button"); 
+    enterBtn.classList.add("hidden"); //To make the player unable to play the game after it ends
 }
 
 function heartBreaker(number){
@@ -65,7 +62,7 @@ function wordPrediction(string){
             unknownY.src="Y.svg";
             score.innerHTML="Score:"+(100+(health*20)); //Each remaining health gives extra points
         } else{
-            health=0
+            health=0 //Makes sure wrong word prediction returns a loss
             heart1.src="BrokenHealth.svg";
             heart2.src="BrokenHealth.svg";
             heart3.src="BrokenHealth.svg";   
